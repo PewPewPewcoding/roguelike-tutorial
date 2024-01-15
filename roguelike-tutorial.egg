@@ -1,0 +1,10 @@
+((version "0.1.0")
+ (synopsis "Roguelike tutorial in Chicken Scheme")
+ (dependencies r7rs)
+ (component-options (csc-options -X r7rs -R r7rs))
+ (components (program main
+               (component-dependencies termbox2)
+               (source "../src/main.scm"))
+             (extension termbox2
+               (source "../src/termbox2.sld")
+               (csc-options -I../src))))
