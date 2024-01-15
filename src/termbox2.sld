@@ -196,8 +196,6 @@
           OUTPUT-216
           OUTPUT-GRAYSCALE
 
-          %init
-          %init-file
           init
           shutdown
           width
@@ -223,7 +221,6 @@
           event-y
           print
           printf
-          %send
           send
           version
           reset
